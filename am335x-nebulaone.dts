@@ -701,7 +701,7 @@
 	P2_25_pinmux {
 		compatible = "bone-pinmux-helper";
 		status = "okay";
-		pinctrl-names = "default", "gpio", "gpio_pu", "gpio_pd", "gpio_input", "spi_cs", "can", "i2c", "pru_uart", "timer";
+		pinctrl-names = "default", "gpio", "gpio_pu", "gpio_pd", "gpio_input", "spi_cs", "can", "i2c", "pru_uart";
 		pinctrl-0 = <&P2_25_default_pin>;
 		pinctrl-1 = <&P2_25_gpio_pin>;
 		pinctrl-2 = <&P2_25_gpio_pu_pin>;
@@ -711,7 +711,6 @@
 		pinctrl-6 = <&P2_25_can_pin>;
 		pinctrl-7 = <&P2_25_i2c_pin>;
 		pinctrl-8 = <&P2_25_pru_uart_pin>;
-		pinctrl-9 = <&P2_25_timer_pin>;
 	};
 
 	/* P2_26 (ZCZ ball D17) i2c */
